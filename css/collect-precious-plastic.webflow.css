@@ -3,7 +3,7 @@
   z-index: 5;
   max-height: none;
   min-height: auto;
-  margin-top: 0px;
+  margin-top: 50px;
   padding-top: 50px;
   text-align: center;
 }
@@ -196,6 +196,10 @@
   text-align: right;
 }
 
+.heading.purple {
+  color: #9178c7;
+}
+
 .img-stat {
   margin-right: auto;
   margin-left: auto;
@@ -222,7 +226,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 300px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -336,6 +340,18 @@
   margin-left: auto;
 }
 
+.top-banner {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 20;
+  margin-top: 0px;
+  border-bottom: 2px solid #c1adec;
+  background-color: #fff;
+}
+
 @media (max-width: 991px) {
   .advantages {
     margin-top: 0px;
@@ -409,6 +425,7 @@
 
 @media (max-width: 479px) {
   .landing {
+    margin-top: 100px;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -477,7 +494,8 @@
     padding-left: 10px;
   }
   .footer {
-    height: 200px;
+    height: 300px;
+    padding-bottom: 50px;
   }
   .link {
     font-size: 16px;
@@ -507,6 +525,10 @@
   }
   .advantage-text {
     width: 90%;
+  }
+  .top-banner {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
