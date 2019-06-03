@@ -22,6 +22,9 @@
 }
 
 .h1.hero {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
   font-size: 48px;
   line-height: 60px;
 }
@@ -49,6 +52,10 @@
   position: static;
   margin-top: -300px;
   padding-bottom: 0px;
+}
+
+.network-illustration.hidden {
+  display: none;
 }
 
 .div-block {
@@ -262,12 +269,16 @@
   font-size: 20px;
 }
 
-.image-2 {
+.just-beginning {
   margin-top: -100px;
   margin-left: 50%;
   -webkit-transform: rotate(-25deg);
   -ms-transform: rotate(-25deg);
   transform: rotate(-25deg);
+}
+
+.just-beginning.hidden {
+  display: none;
 }
 
 .map-element {
@@ -302,6 +313,11 @@
   -webkit-transform: rotate(6deg);
   -ms-transform: rotate(6deg);
   transform: rotate(6deg);
+}
+
+.business-wrapper.nl {
+  margin-right: -50px;
+  padding-right: 80px;
 }
 
 .link-2 {
@@ -352,7 +368,59 @@
   background-color: #fff;
 }
 
+.network-illustration-ducth {
+  margin-top: -300px;
+}
+
+.network-recycling-nl {
+  display: none;
+}
+
+.just-beginning-nl {
+  margin-top: -100px;
+  margin-left: 50%;
+  -webkit-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+}
+
+.flags-wrapper {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 100;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-top: 0px;
+}
+
+.english {
+  width: 25px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.english.hidden {
+  display: none;
+}
+
+.nl {
+  width: 25px;
+}
+
+.nl.hidden {
+  display: none;
+}
+
 @media (max-width: 991px) {
+  .h1.hero {
+    width: 90%;
+  }
+  .h1.width {
+    width: 90%;
+  }
   .advantages {
     margin-top: 0px;
     padding-right: 100px;
@@ -380,6 +448,11 @@
   .stats-wrapper {
     width: 100%;
   }
+  .heading.purple {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .map {
     overflow: hidden;
     padding-right: 100px;
@@ -392,7 +465,7 @@
     height: 200px;
     background-position: 50% 50%;
   }
-  .image-2 {
+  .just-beginning {
     width: 15%;
     margin-top: -62px;
     margin-left: 70%;
@@ -409,17 +482,52 @@
     margin-top: 50px;
     margin-right: -150px;
   }
+  .business-wrapper.nl {
+    margin-right: -150px;
+  }
   .advantage-wrapper {
     width: 100%;
+  }
+  .top-banner {
+    height: 70px;
+  }
+  .network-illustration-ducth {
+    margin-top: -100px;
+  }
+  .just-beginning-nl {
+    width: 15%;
+    margin-top: -60px;
+    margin-left: 76%;
+  }
+  .flags-wrapper {
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 767px) {
-  .image-2 {
+  .h1.width {
+    width: 100%;
+  }
+  .heading.purple {
+    width: 80%;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .map {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .just-beginning {
     margin-top: -50px;
+  }
+  .business-wrapper.nl {
+    display: none;
   }
   .advantage-text {
     width: 80%;
+  }
+  .top-banner {
+    height: auto;
   }
 }
 
@@ -503,7 +611,7 @@
   .h3 {
     font-size: 18px;
   }
-  .image-2 {
+  .just-beginning {
     width: 30%;
     margin-top: 30px;
     margin-left: 70%;
@@ -523,12 +631,29 @@
   .image-4 {
     display: block;
   }
+  .image-4.hidden {
+    display: none;
+  }
   .advantage-text {
     width: 90%;
   }
   .top-banner {
     padding-right: 15px;
     padding-left: 15px;
+  }
+  .network-illustration-ducth {
+    display: none;
+  }
+  .network-recycling-nl {
+    display: block;
+  }
+  .flags-wrapper {
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  .english {
+    margin-top: 0px;
+    margin-right: 0px;
   }
 }
 
