@@ -118,6 +118,7 @@
 
 .paragraph.address {
   margin-top: 0px;
+  clear: both;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -304,7 +305,7 @@
   position: relative;
   overflow: hidden;
   margin-top: 100px;
-  margin-right: -50px;
+  margin-right: -80px;
   padding: 16px 100px 16px 15px;
   background-image: url('../images/business-blob.png');
   background-position: 100% 50%;
@@ -316,8 +317,14 @@
 }
 
 .business-wrapper.nl {
+  position: relative;
+  display: block;
+  width: 30%;
   margin-right: -50px;
   padding-right: 80px;
+  padding-left: 10px;
+  float: right;
+  clear: both;
 }
 
 .link-2 {
@@ -480,7 +487,7 @@
   .business-wrapper {
     overflow: hidden;
     margin-top: 50px;
-    margin-right: -150px;
+    margin-right: -190px;
   }
   .business-wrapper.nl {
     margin-right: -150px;
@@ -519,6 +526,9 @@
   }
   .just-beginning {
     margin-top: -50px;
+  }
+  .business-wrapper {
+    display: none;
   }
   .business-wrapper.nl {
     display: none;
